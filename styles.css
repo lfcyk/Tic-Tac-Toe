@@ -1,0 +1,80 @@
+:root {
+--san-juan: #2f4d65;
+--sunglow: #fbbb34;
+--rose-fog: #e8c6bd;
+--burnt-sienna: #ef6764;
+--copper-rust: #8b4944;
+--viking: #55bbdf;
+--my-pink: #d3a282;
+--driftwood: #b28d49;
+--energy-yellow: #fad454;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--viking);
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+    color: white;
+}
+
+#board {
+    /* height: 420px;
+    width: 420px; */
+    margin: auto;
+
+    display: grid;
+    grid-template: 140px 140px 140px / 140px 140px 140px;
+}
+
+.square {
+    font-size: 120px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+#square1-1, #square2-1, #square3-1 {
+    border-right: white 4px solid;
+}
+
+#square1-2, #square2-2, #square3-2 {
+    border-left: white 4px solid;
+}
+
+#square1-2, #square2-2, #square3-2 {
+    border-right: white 4px solid;
+}
+
+#square1-3, #square2-3, #square3-3 {
+    border-left: white 4px solid;
+}
+
+#square1-1, #square1-2, #square1-3 {
+    border-bottom: white 4px solid;
+}
+
+#square2-1, #square2-2, #square2-3 {
+    border-top: white 4px solid;
+}
+
+#square2-1, #square2-2, #square2-3 {
+    border-bottom: white 4px solid;
+}
+
+
+#square3-1, #square3-2, #square3-3 {
+    border-top: white 4px solid;
+}
+
+#game-instruction {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 25px;
+}
