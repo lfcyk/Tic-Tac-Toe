@@ -78,3 +78,32 @@ h1 {
     text-align: center;
     margin-top: 25px;
 }
+
+#modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+    width: 400px;
+    height: 300px;
+}
+
+#modal h2 {
+    color: white;
+    text-align: center;
+}
+
+#modal button {
+    width: 200px;
+    height: 30px;
+    align-self: center;
+}
+
+.hidden {
+    visibility: hidden;
+}

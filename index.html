@@ -11,8 +11,8 @@
 <body>
     <h1>Tic Tac Toe</h1>
     <div id="board">
-        <div id="square1-1" class="square">×</div>
-        <div id="square1-2" class="square">○</div>
+        <div id="square1-1" class="square"></div>
+        <div id="square1-2" class="square"></div>
         <div id="square1-3" class="square"></div>
         <div id="square2-1" class="square"></div>
         <div id="square2-2" class="square"></div>
@@ -21,6 +21,10 @@
         <div id="square3-2" class="square"></div>
         <div id="square3-3" class="square"></div>
     </div>
-    <div id="game-instruction">× to play</div>
+    <div id="modal" class="hidden">
+        <h2>Congrats for winning the game!</h2>
+        <button>Start a New Game</button>
+    </div>
+    <div id="game-instruction"><span id="player-to-play">×</span> to play</div>
 </body>
 </html>
